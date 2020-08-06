@@ -19,7 +19,7 @@ public class FakeUserProfileDataStore {
 
     }
 
-    List<UserProfile> getUserProfiles() {
+    public List<UserProfile> getUserProfiles() {
         return USER_PROFILES;
     }
 
